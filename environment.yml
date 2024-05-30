@@ -7,7 +7,14 @@ dependencies:
   - flake8
   - isort
   - pip
+  - nltk
+  - numpy
+  - ipython
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - pandas
   - pip:
-    - python-dotenv
-    - mkdocs
-    - -e .
+      - python-dotenv
+      - mkdocs
+      - -e .
